@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ScottPlot.WPF" Version="4.1.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AssettoCorsaSharedMemory">
+      <HintPath>..\..\trash\trash\libs\AssettoCorsaSharedMemory.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,5 @@
+C:\Users\sheba\source\repos\love\love\obj\Debug\net5.0-windows\love.csprojAssemblyReference.cache
+C:\Users\sheba\source\repos\love\love\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\sheba\source\repos\love\love\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\sheba\source\repos\love\love\obj\Debug\net5.0-windows\love_MarkupCompile.cache
+C:\Users\sheba\source\repos\love\love\obj\Debug\net5.0-windows\love_MarkupCompile.lref

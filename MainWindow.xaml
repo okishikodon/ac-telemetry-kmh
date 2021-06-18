@@ -1,0 +1,21 @@
+﻿<Window x:Class="love.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:love"
+        mc:Ignorable="d"
+        Title="Live Data (fixed array size)" Height="450" Width="800">
+    <DockPanel>
+        <WpfPlot Name="wpfPlot1" Height="464" Width="796" RenderTransformOrigin="0.5,0.5">
+            <WpfPlot.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0" Y="-30"/>
+                </TransformGroup>
+            </WpfPlot.RenderTransform>
+        </WpfPlot>
+    </DockPanel>
+</Window>
